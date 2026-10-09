@@ -1,0 +1,24 @@
+{
+  "schema": {
+    "description": "Verified local flood and landslide reports. Keep incidents empty until reports are checked and sourced.",
+    "fields": {
+      "id": "string",
+      "type": "flood | landslide",
+      "region": "string",
+      "township": "string",
+      "location_scope": "township | neighborhood",
+      "location_label": "optional string",
+      "title": { "en": "string", "my": "string" },
+      "summary": { "en": "string", "my": "string" },
+      "event_date": "ISO date or null when unknown",
+      "publication_date": "ISO date",
+      "last_updated": "ISO datetime",
+      "source_name": "string",
+      "source_url": "https URL",
+      "verification_status": "verified | unverified | pending",
+      "coordinates": "[latitude, longitude] only when the location is verified, otherwise null",
+      "sourced_advice": { "en": "optional string", "my": "optional string" }
+    }
+  },
+  "incidents": []
+}

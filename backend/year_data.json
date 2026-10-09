@@ -1,0 +1,15 @@
+{
+  "description": "Year-specific analysis availability. Add only source-backed observation windows here; do not invent acquisition dates or measurements.",
+  "years": {
+    "2024": {
+      "available": true,
+      "before": "2024-08-10",
+      "after": "2024-08-22",
+      "source_label": "Prepared comparison layer",
+      "observation_note": "Comparison window; not a confirmed acquisition record."
+    },
+    "2022": { "available": false, "before": null, "after": null, "source_label": "No year-specific dataset loaded", "observation_note": "Analysis pending; no source-backed observation window is available." },
+    "2023": { "available": false, "before": null, "after": null, "source_label": "No year-specific dataset loaded", "observation_note": "Analysis pending; no source-backed observation window is available." },
+    "2025": { "available": false, "before": null, "after": null, "source_label": "No year-specific dataset loaded", "observation_note": "Analysis pending; no source-backed observation window is available." }
+  }
+}
